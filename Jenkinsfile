@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo "Running tests..."
                 // Simulating test step
-                sh 'exit 0' // Change to 'exit 1' to test failure notification
+                sh 'exit 1' // Change to 'exit 1' to test failure notification
             }
         }
     }
